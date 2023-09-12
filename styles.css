@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #333;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 80px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 25px;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+header h1.logo1 {
+    font-size: 35px;
+    font-weight: bold;
+    /* Agregar propiedad de display */
+    display: inline-block;
+    /* Agregar propiedad de line-height */
+    line-height: 80px;
+    padding: 0 50px;
+}
+
+header nav {
+    /* Agregar propiedad de float */
+    float: right;
+}
+
+.log3 {
+    /* Agregar propiedad de display */
+    display: inline-block;
+
+    margin-right: 20px;
+    /* Agregar propiedad de line-height */
+    line-height: 80px
+}
+
+.log2 {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.log2:hover {
+    color: #ca9b00;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: #333;
+    clear: both;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #a37959;
+    /*background-color: #118a37;*/
+    float: right;
+    justify-content: center;
+    line-height: 80px;
+    margin-right: 40px;
+}
+
+
+.img2 {
+    border-radius: 50px;
+    border: 2px solid #8a8080;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px
+}
+
+
+.redes {
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
+
+
+
+.logo1 {
+    color: #a37959;
+}
+
+.text2 {
+    display: inline-block;
+    margin: 0 100px;
+    display: flex;
+    padding: 20px;
+    background-color: #118a37;
+    width: fit-content;
+}
+
+
+
+/* Armar inicio Section */
+.titulo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.acercademi {
+    width: 10em;
+    display: block;
+}
+
+
+.imgm1 {
+    padding: 15px;
+    display: block;
+    width: 350px;
+
+}
+
+/* Main IMAGENES Div*/
+.img1 {
+    width: -webkit-fill-available;
+    height: 90px;
+    margin: 30px 0px;
+}
+
+.trab {
+    justify-content: center;
+    display: flex;
+}
+
+#box1 {
+    background-color: #ffffff;
+    display: flex;
+    padding: 50px 50px;
+    justify-content: center;
+    text-align: center;
+/*    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-flow: row;*/
+
+
+}
+
+.tit{font-size: 20px;
+    margin: 5px 0px;
+}
+
+.caja2 {
+    background-color: #ffffff;
+    padding: 30px 30px;
+}
+
+.img2 {
+    border-radius: 50px;
+    border: 2px solid #8a8080;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 345px
+}
+
+/* Chatt Envio */
+.chats{ display: flex;
+    justify-content: center;
+}
+
+.contactos1{ display: flex;
+    justify-content: center;
+    
+    padding: 15px 15px;
+    font-size: 30px;
+
+}
+
+.contactos2{ display: flex;
+    justify-content: center;
+    
+    padding: 30px 30px;
+    font-size: 20px;
+}
+
+.chatt{ display: flex;
+    justify-content: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #5d6063;
+    background-color: #eaedf0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+}
+
+/* ------------- Encabezado Contacto ------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+}
+
+.form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* ------------- Formulario ------------- */
+
+.formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+}
+
+/* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 350px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+
+
+    color: #ffffff;
+    background-color: #a37959;
+
+
+    border: none;
+    border-radius: 3px;
+
+
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+
+.form-row button:hover {
+    background-color: #a37959;
+}
+
+
+.form-row button:active {
+    background-color: #a37959;
+}
+
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+
+
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+
+
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+
+
+    width: 100%;
+}
+
+/*------------------ Main -----------------------*/
+.te{width: 25px;
+
+}
+.te1{width: 25px;
+
+}
+.leonimg{width: 25px;
+
+}
+
+/*------------------ MOvil SettingS! -----------------------*/
+
+@media (max-width: 768px) {
+    header {
+        color: #a37959;
+    }
+    #box1 {
+        flex-direction: column;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .menu{position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3a50;
+        text-align: center;
+
+        top: 80px;
+        left: 100%;
+        transition: all 0.5s;
+    }
+    
+    #check:checked ~ .menu{
+        left: 0;
+        display: block;
+
+    }
+
+    .log3{
+        display: block;
+        margin: 50px 0px;
+        line-height: 30px;
+
+    }
+    .log2{  font-size: 20px;
+    }
+    #check:checked ~ .checkbtn{  
+        color:#ffffff;
+    }
+    .caja2{ display: block;
+        justify-content: space-between;
+        align-self: flex-start;
+    }
+    #box1{  display: block;
+        justify-content: center;
+        align-self: flex-start;
+       
+    }
+    .imgm1{max-width: 100%; 
+        height: auto;
+    }
+    .img2{max-width: 100%; 
+        height: auto;
+    }
+
+    .form-row input[type="text"],
+    .form-row input[type="email"] {max-width: 100%; 
+        height: auto;
+    }
+}
