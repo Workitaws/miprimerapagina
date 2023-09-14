@@ -156,7 +156,8 @@ footer {
 
 #box1 {
     background-color: #ffffff;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
     padding: 50px 50px;
     justify-content: center;
     text-align: center;
